@@ -1,5 +1,7 @@
-var soma
 
-soma = 1+1
 
-console.log(soma);
+function soma(x,y){
+    return x + y
+}
+
+console.log(soma(10,20));
