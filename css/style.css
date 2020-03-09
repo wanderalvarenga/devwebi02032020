@@ -2,13 +2,64 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans";
 }
 
+@font-face{
+	src:url('../fonts/OpenSans-Light.ttf');
+	font-family: "Open Sans";
+}
 
 .container{
     max-width: 1280px;
+    margin: 0 auto;
 }
 
 .clear{
     clear: both;
+}
+
+.nome{
+    background-color: #212343;
+    padding: 45px 0;
+    color: white;
+}
+.nome img{
+    width: 70px;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+    left: 20px;
+    float: left;
+
+}
+.nome h2{
+    position: relative;
+    font-size: 32px;
+    text-align: center;
+    float: right;
+    top: -20px;
+    padding:0 20px;
+}
+
+/* conteudo texto **/
+
+.corpo{
+   max-width: 100%;
+   background-color: #472562;
+}
+
+.texto{
+    margin-top: 00px;
+    width: 100%;
+    text-align: center;
+    float: right;
+}
+
+.texto ul {
+    margin-bottom: 25px;
+}
+
+.texto ul li{
+    
 }
