@@ -1,52 +1,83 @@
 *{
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Open Sans";
+	padding: 0;
+	box-sizing: border-box;
+    font-family: "Roboto";
 }
 
-@font-face{
-	src:url('../fonts/OpenSans-Light.ttf');
-	font-family: "Open Sans";
-}
+
 
 .container{
     max-width: 1280px;
+    padding: 0 2%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .clear{
     clear: both;
 }
 
+header{
+    height: 250px;
+    padding:45px 0;
+    background-color: #353231;
+    margin: 0 auto;
+    
+}
+
 .nome{
-    background-color: #212343;
-    padding: 45px 0;
+   
     color: white;
+    max-width: 100%;
+    
 }
 .nome img{
-    width: 70px;
+    width: 17%;
     border-radius: 50%;
     position: relative;
-    top: -40px;
-    left: 20px;
+    top: -15px;
+    left: 27%;
     float: left;
 
 }
-.nome h2{
+.titulo h2{
     position: relative;
-    font-size: 32px;
+    font-size: 45px;
     text-align: center;
-    float: right;
-    top: -20px;
+    top: 0px;
+    left: 58px;
     padding:0 20px;
+    font-family: 'Montserrat' , sans-serif;
+}
+
+.titulo ul{
+    list-style-type: none;
+  
+}
+
+.titulo ul li{
+    position: relative;
+    top: 0px;
+    left: 29%;
+
 }
 
 /* conteudo texto **/
 
 .corpo{
    max-width: 100%;
-   background-color: #472562;
+   
+   border: solid 1px #ccc;
+   padding: 0 300px;
+}
+
+.box{
+    
+    background-color:#353231;
+    padding: 10px 0;
+    max-width: 500px;
+    margin: 10px auto;
 }
 
 .texto{
@@ -54,6 +85,7 @@
     width: 100%;
     text-align: center;
     float: right;
+    color: white;
 }
 
 .texto ul {
@@ -61,5 +93,10 @@
 }
 
 .texto ul li{
+
+    list-style-position: outside;
+    color: black;
+    text-align: justify;
+    
     
 }
