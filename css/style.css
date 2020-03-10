@@ -11,7 +11,7 @@
     max-width: 1280px;
     padding: 0 2%;
     margin: 0 auto;
-    overflow: hidden;
+    
 }
 
 .clear{
@@ -32,13 +32,15 @@ header{
     max-width: 100%;
     
 }
+
 .nome img{
     width: 17%;
     border-radius: 50%;
     position: relative;
-    top: -15px;
+    top: -10px;
     left: 27%;
     float: left;
+
 
 }
 .titulo h2{
@@ -52,14 +54,16 @@ header{
 }
 
 .titulo ul{
-    list-style-type: none;
-  
+    list-style-type: none; 
+    overflow: hidden;
 }
 
 .titulo ul li{
+    
+    margin: 0 auto;
     position: relative;
     top: 0px;
-    left: 29%;
+    left: 35%;
 
 }
 
@@ -90,10 +94,12 @@ header{
 
 .texto ul {
     margin-bottom: 25px;
+    padding: 0 15%;
 }
 
 .texto ul li{
-
+   
+    
     list-style-position: outside;
     color: black;
     text-align: justify;
